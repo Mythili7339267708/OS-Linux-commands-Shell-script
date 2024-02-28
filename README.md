@@ -53,15 +53,17 @@ cat < file2
 cmp file1 file2
 ## OUTPUT
  
-comm file1 file2
- ## OUTPUT
+<img width="421" alt="os ex01 c" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/6f0f9b44-af73-4524-897c-eefa150e84a3">
 
- 
-diff file1 file2
+ ## OUTPUT
+<img width="393" alt="os ex01 d" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f4a34ec7-dfd9-4356-9134-0b6e3a8bd6e6">
+
+
 ## OUTPUT
 
+<img width="395" alt="os ex01 e" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/0538025e-4907-43bc-9924-ab0d3742d0c2">
 
-#Filters
+
 
 ### Create the following files file11, file22 as follows:
 
@@ -81,18 +83,19 @@ cat > file22
 
 
 cut -c1-3 file11
-## OUTPUT
 
+
+<img width="360" alt="os ex01 f" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/0c22bb0d-f504-4172-bcf8-dace27df9df6">
 
 
 
 cut -d "|" -f 1 file22
-## OUTPUT
 
+<img width="347" alt="os ex01 g" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/231fcdd5-af11-4299-9921-3d8ab799b739">
 
 
 cut -d "|" -f 2 file22
-## OUTPUT
+
 
 
 cat < newfile 
