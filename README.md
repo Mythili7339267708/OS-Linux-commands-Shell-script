@@ -202,10 +202,12 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 
+<img width="357" alt="osex1" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/37279e04-f6c6-4e6a-b8b9-2ee228bc6dd8">
 
 
 egrep '((W|w)orld$)' newfile 
-## OUTPUT
+
+<img width="356" alt="os ex1 1" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f66e26f6-3714-4928-912f-fc439a6f2b18">
 
 
 
@@ -215,20 +217,19 @@ egrep '[1-9]' newfile
 
 
 egrep 'Linux.*world' newfile 
-## OUTPUT
 
 
 egrep 'Linux.*World' newfile 
-## OUTPUT
+
+<img width="356" alt="os ex01 3" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/c5881d5e-b740-4d40-a4fc-07a3688e0d50">
 
 
 egrep l{2} newfile
-## OUTPUT
-
 
 
 egrep 's{1,2}' newfile
-## OUTPUT 
+
+<img width="357" alt="osex1 5" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/095f464d-2d2e-4644-8d04-8170da4b9329">
 
 
 cat > file23
@@ -246,77 +247,87 @@ cat > file23
 
 
 sed -n -e '3p' file23
-## OUTPUT
 
+<img width="356" alt="ex01 6" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/dd1a2a99-7cf9-454c-96ff-41538edef4d9">
 
 
 sed -n -e '$p' file23
-## OUTPUT
+
+<img width="366" alt="ex01 7" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/49d767f9-ff7a-4bdb-8bdb-8f3afa305f0c">
 
 
 
 sed  -e 's/Ram/Sita/' file23
-## OUTPUT
+
+<img width="370" alt="ex01 8" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/c33bbfef-3acb-4383-8c7a-3131245d6211">
 
 
 
 sed  -e '2s/Ram/Sita/' file23
-## OUTPUT
+
+<img width="358" alt="ex1 9" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/c6c0670b-2967-4d15-91fa-1f7345ed5cbd">
 
 
 
 sed  '/tom/s/5000/6000/' file23
-## OUTPUT
+
+<img width="375" alt="ex1 10" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/99806077-f0c0-4087-8d36-d42d243fb746">
 
 
 
 sed -n -e '1,5p' file23
-## OUTPUT
+
+<img width="374" alt="ex 1 11" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/dbdaff81-ec81-4c9d-80d5-66a229d217b3">
 
 
 
 sed -n -e '2,/Joe/p' file23
-## OUTPUT
 
 
+<img width="371" alt="ex01 12" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f349a64a-ac7b-47fd-9146-b38700a82bc9">
 
 
 sed -n -e '/tom/,/Joe/p' file23
-## OUTPUT
 
+<img width="346" alt="ex 1 13" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/666b4acf-93aa-4735-a84e-0e41d24d2f01">
 
 
 seq 10 
-## OUTPUT
+
+<img width="361" alt="ex 01 14" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/4dfeb057-9a4d-4499-86d5-f8a98415d8e7">
 
 
 
 seq 10 | sed -n '4,6p'
-## OUTPUT
+<img width="368" alt="ex01 15" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/19114e0d-d180-454c-a14d-81c53e7f5bc8">
 
 
 
 seq 10 | sed -n '2,~4p'
-## OUTPUT
 
+
+<img width="362" alt="ex01 16" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/21110bfb-9908-4c86-83ac-9c64c0dd7e1a">
 
 
 seq 3 | sed '2a hello'
-## OUTPUT
+
+<img width="355" alt="ex 1 17" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/b32599a7-7d52-41cf-bec8-b071e4d0bc75">
 
 
 
 seq 2 | sed '2i hello'
-## OUTPUT
+
+<img width="362" alt="ex01 18" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5432d10f-af21-4ce9-bce1-d6ad2280756c">
 
 
 seq 10 | sed '2,9c hello'
-## OUTPUT
 
+
+<img width="354" alt="ex01 19" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/cb7c0f14-74db-456b-9935-b08eb0db8af7">
 
 sed -n '2,4{s/^/$/;p}' file23
-## OUTPUT
 
+<img width="365" alt="ex01 20" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/007efeae-a979-47ba-be4f-e46f6eb68d73">
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -332,8 +343,9 @@ cat > file21
 1004 | Sit |  7000 | Dev
 ``` 
 sort file21
-## OUTPUT
 
+
+<img width="368" alt="ex01 21" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5020ae09-eb16-45c3-b920-2c1a897f4bce">
 
 cat > file22
 ```
@@ -345,14 +357,15 @@ cat > file22
 1004 | Sit |  7000 | Dev
 ``` 
 uniq file22
-## OUTPUT
 
+
+<img width="351" alt="ex01 22" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/2bef2bcd-7115-43da-b304-e760789f6705">
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
- ## OUTPUT
+ <img width="367" alt="ex01 23" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/2c3cab0f-0346-4791-b41c-dfdf898472fd">
 
 cat < urllist.txt
 ```
@@ -368,30 +381,34 @@ www. google. com
 www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
- ## OUTPUT
+ 
 
+<img width="362" alt="ex01 24" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/59536983-8836-4415-8099-a3552472c33a">
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
-## OUTPUT
 
+<img width="331" alt="ex01 25" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5ed3791c-04b2-40ac-8928-569bff72fd17">
 
 
 #Backup commands
 tar -cvf backup.tar *
-## OUTPUT
+<img width="364" alt="ex1 26" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/01c0979b-543b-4e59-8056-2cfbc773abc7">
 
+<img width="359" alt="ex0127" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5534a10a-e35d-4ed2-a711-2ed7974883ec">
 
 mkdir backupdir
  
 mv backup.tar backupdir
  
 tar -tvf backup.tar
-## OUTPUT
+
+<img width="295" alt="ex01 28" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5879605f-25f9-4f6e-8449-dcadd3c00d58">
 
 
-tar -xvf backup.tar
-## OUTPUT
+tar -xvf back
+<img width="368" alt="ex01 29" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/dcb32f81-6942-488b-b7a7-8322d67bef77">
+
 
 gzip backup.tar
 
