@@ -144,12 +144,14 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 
 
-<img width="356" alt="os ex01 n" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/fb9a1f24-6c16-4148-9098-0e8da0f03c5a">
+<img width="362" alt="os ex01 o" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/dc0be921-c7ca-4227-9e25-37f090f8db2f">
+
 
 
 grep -w -n world newfile   
 
-<img width="362" alt="os ex01 o" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/9d99e4b2-05bf-4946-ae01-c2db189cbbf6">
+
+<img width="356" alt="os ex01 n" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/aa01d676-7a1b-4bd1-94bb-40c85b1f8183">
 
 
 cat < newfile 
@@ -172,33 +174,34 @@ Linux is best in this World
 ^d
  ```
 egrep -w 'Hello|hello' newfile 
-## OUTPUT
 
+<img width="352" alt="os ex01 p" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/28dcffd3-8561-44f5-b84c-fefcb9cb2d0f">
 
 
 egrep -w '(H|h)ello' newfile 
-## OUTPUT
 
+
+<img width="356" alt="os ex01 q" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/2826ea53-bf3f-4fab-910f-9a512edff9d4">
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
-## OUTPUT
 
+<img width="347" alt="os ex01 r" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/d7c613b8-4ce1-443e-850c-096830d435d7">
 
 
 
 egrep '(^hello)' newfile 
-## OUTPUT
 
 
+<img width="356" alt="os ex01s" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/7e0e766c-9d53-465b-b0eb-a1083037d465">
 
 egrep '(world$)' newfile 
-## OUTPUT
 
+<img width="362" alt="os ex01t" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/6e0f2997-e44a-4e46-8cfe-4160d01d1585">
 
 
 egrep '(World$)' newfile 
-## OUTPUT
+
 
 
 egrep '((W|w)orld$)' newfile 
