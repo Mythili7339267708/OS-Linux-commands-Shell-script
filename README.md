@@ -212,8 +212,9 @@ egrep '((W|w)orld$)' newfile
 
 
 egrep '[1-9]' newfile 
-## OUTPUT
 
+
+<img width="385" alt="ex01 27" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/edd828c7-5015-4f93-a4c5-4561598de598">
 
 
 egrep 'Linux.*world' newfile 
@@ -429,7 +430,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
-## OUTPUT
+<img width="385" alt="ex01 27" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/d1e1830f-bd60-4886-bb54-3233eee7c6a7">
 
  
 cat << stop > herecheck.txt
@@ -441,8 +442,7 @@ stop
 ```
 
 cat herecheck.txt
-## OUTPUT
-
+<img width="295" alt="ex01 28" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/239ddc52-536c-4750-bffb-eaf8dd017f28">
 
 cat < scriptest.sh 
 ```bash
@@ -479,24 +479,29 @@ chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
-## OUTPUT
+
+<img width="368" alt="ex01 29" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/8f5c8667-e00a-41c1-b047-ee5667533c66">
 
  
 ls file1
-## OUTPUT
+<img width="303" alt="5" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/87a8d2b2-a256-4ba4-bd5a-59996b99bcae">
+
 
 echo $?
-## OUTPUT 
+<img width="375" alt="6" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/2b0ae8bc-1caa-41f3-a191-ebb442bf3fc9">
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
-## OUTPUT 
- 
+
+ <img width="157" alt="ex 01 30" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/b8b19ee0-2e23-4d32-bc2e-cadbcfc9be24">
+
 abcd
  
 echo $?
- ## OUTPUT
+
+<img width="162" alt="ex01 31" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/52a6a3c9-970a-4599-8512-f0dcd85e911f">
 
 
  
@@ -535,8 +540,9 @@ fi
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
-## OUTPUT
 
+
+<img width="355" alt="7" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/aa6d3ba0-3e32-401f-aa54-13493ea5c082">
 
 # check file ownership
 cat < psswdperm.sh 
@@ -562,7 +568,8 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
 ./psswdperm.sh
-## OUTPUT
+
+<img width="365" alt="8" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/ff940e9d-09ef-49c5-94f3-f7e0acf1f318">
 
 # check if with file location
 cat>ifnested.sh 
@@ -608,8 +615,8 @@ fi
 ```
 
 ./ifnested.sh 
-## OUTPUT
 
+<img width="251" alt="9" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/c357389f-da1a-4fba-a928-c7d13c985118">
 
 
 # using numeric test comparisons
@@ -651,8 +658,8 @@ fi
 
 $ chmod 755 iftest.sh
  
-$ ./iftest.sh 
-##OUTPUT
+$ ./iftest##OUTPUT
+<img width="305" alt="10" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/51b74fc2-6bb1-4232-b401-7b8d8b8d43b3">
 
 # check if a file
 cat > ifnested.sh 
@@ -701,7 +708,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+<img width="359" alt="13" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f73dd1bc-3b35-4dec-904e-c5e92b784154">
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -729,7 +737,7 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
-## OUTPUT
+<img width="386" alt="12" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/6ce7ec93-18e0-4d55-bfdd-fd70bbb99aa8">
 
 
 # testing compound comparisons
@@ -745,7 +753,8 @@ fi
 ```
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
-## OUTPUT
+<img width="359" alt="13" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f71c570c-9548-4c48-9015-1a383176eda1">
+
 
 # using the case command
 cat >casecheck.sh 
@@ -780,7 +789,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ <img width="353" alt="14" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/cce41c6b-447b-45f9-95c5-73f76c20b179">
+
  
 cat untiltest.sh 
 ```bash
@@ -795,7 +805,8 @@ done
 $ chmod 755 untiltest.sh
  
  
- 
+ <img width="302" alt="15" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f5be29e6-1b4a-473b-9be1-7fafba1a7ca8">
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -856,7 +867,8 @@ done
 ```
 $ chmod 755 forin1.sh
 
-## OUTPUT
+<img width="353" alt="14" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/d316700b-e13c-42bc-b603-eb8e7b5ac201">
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -877,7 +889,7 @@ Adilabad
 Bhadrachalam
 Khammam
 
-## OUTPUT
+<img width="176" alt="17" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/c16aa4f2-b7a2-444b-b860-4c3e68abc42e">
 
 
 cat forctype.sh 
@@ -891,7 +903,8 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
-## OUTPUT
+
+<img width="376" alt="16" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/8e0bf4e9-f110-4acb-8ca8-aee2470e230e">
 
 cat forctype1.sh 
 ```bash
@@ -904,7 +917,8 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
-## OUTPUT
+<img width="176" alt="17" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f19986e9-b017-41ac-80e7-3e60c7fc4cbc">
+
 
 cat fornested1.sh 
 ```bash
@@ -922,9 +936,10 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
- ## OUTPUT
 
- 
+
+ <img width="155" alt="18" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/3ae970f4-7cac-4e19-8892-adeaa8642113">
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -939,7 +954,8 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+<img width="65" alt="19" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5b92cae5-685e-468a-93e2-44bbae017b6a">
+
 
 $ chmod 755 forbreak.sh
  
@@ -964,8 +980,8 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
-## OUTPUT
- 
+<img width="287" alt="20" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/5b383fd3-8518-4a49-8890-76e990bd7dc4">
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -978,7 +994,8 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
-## OUTPUT
+
+<img width="259" alt="ex01 32" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/ac0eba6d-d62d-4143-b318-afc595b30c48">
 
 
  cat exread1.sh
@@ -990,8 +1007,9 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
 
+
+<img width="200" alt="ex01 33" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/9bbba2ba-e351-4509-bb0a-251b03020e37">
 
 
 $ ./exread1.sh 
@@ -1011,7 +1029,8 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+<img width="392" alt="25" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/943cc5c5-ff43-44be-9a63-879e86965b5a">
+
  ./funcex.sh 
 
  
@@ -1027,8 +1046,9 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+<img width="383" alt="26" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/397111df-e7c6-4c32-b0c4-41b37712ded9">
 
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1045,7 +1065,8 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+<img width="418" alt="27" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/e2ccde4b-4ef5-4a86-bbca-4403b98659b9">
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1058,7 +1079,8 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+<img width="409" alt="28" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/afbabff3-7a02-48a9-a185-cce47a20fa18">
+
  ./argshift.sh 1 2 3
  
  
@@ -1090,8 +1112,9 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
-## OUTPUT 
- 
+
+ <img width="406" alt="29" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/74c41aa8-603f-4e7d-9bbc-ecd1a98e413a">
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1117,7 +1140,8 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT 
+
+<img width="376" alt="30" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/d4e7c8c5-81f6-4278-9acb-a41ec3bf1eb9">
 
 
 # RESULT:
