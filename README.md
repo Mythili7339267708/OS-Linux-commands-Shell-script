@@ -41,12 +41,12 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
-## OUTPUT
 
-
+<img width="353" alt="os ex01 a" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/78ec2907-507e-4ba0-87f9-7cd1b286f513">
 
 cat < file2
-## OUTPUT
+
+<img width="428" alt="os ex01b" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/f12feb40-b0b8-4188-abad-5dd2b620d859">
 
 
 # Comparing Files
