@@ -96,6 +96,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 
+<img width="353" alt="osex01 h" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/fcd412ea-10e3-46b6-835f-4b5e2287e0af">
 
 
 cat < newfile 
@@ -109,40 +110,46 @@ Hello world
 hello world
  
 grep Hello newfile 
-## OUTPUT
+
+<img width="364" alt="os ex01 i" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/933366c8-1671-4c1c-8170-b52a94d018b8">
 
 
 
 grep hello newfile 
-## OUTPUT
 
+
+<img width="359" alt="os ex01 j" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/3fed1b11-e694-4019-8a25-83b8d2f77205">
 
 
 
 grep -v hello newfile 
-## OUTPUT
+
+<img width="363" alt="os ex01 k" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/1b5ef44b-ad67-4bc5-8af7-740b66be541d">
 
 
 
 cat newfile | grep -i "hello"
-## OUTPUT
 
 
+<img width="363" alt="os ex01 l" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/e996db84-5716-4570-9067-44606fbeade8">
 
 
 cat newfile | grep -i -c "hello"
-## OUTPUT
 
+
+<img width="364" alt="os ex01 m" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/c95cd02a-f93f-419e-b801-68a6ce35e063">
 
 
 
 grep -R ubuntu /etc
-## OUTPUT
 
+
+<img width="356" alt="os ex01 n" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/fb9a1f24-6c16-4148-9098-0e8da0f03c5a">
 
 
 grep -w -n world newfile   
-## OUTPUT
+
+<img width="362" alt="os ex01 o" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/9d99e4b2-05bf-4946-ae01-c2db189cbbf6">
 
 
 cat < newfile 
