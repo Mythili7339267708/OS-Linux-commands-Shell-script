@@ -411,12 +411,15 @@ tar -xvf back
 
 
 gzip backup.tar
+<img width="190" alt="3" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/b15a6e48-3c2c-48c4-881e-f8c07ada3f96">
 
 ls .gz
-## OUTPUT
- 
+
+ <img width="413" alt="1" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/2a5d0f0e-19cb-4469-9fe8-c1d7b24d626d">
+
 gunzip backup.tar.gz
-## OUTPUT
+
+<img width="232" alt="2" src="https://github.com/Mythili7339267708/OS-Linux-commands-Shell-script/assets/144260246/92f7aee5-bc55-424b-a001-2d221da23d9d">
 
  
 # Shell Script
